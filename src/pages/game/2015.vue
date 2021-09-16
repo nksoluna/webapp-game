@@ -173,7 +173,8 @@ body {
 @media (max-width: 40rem) {
   #container {
     width: 18rem;
-    height: 27.25rem;
+    height: 0rem;
+    margin-bottom: 5rem ;
   }
   
   .blog-card {
@@ -203,10 +204,13 @@ body {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
+
+    
   }
   
   @media (max-width: 40rem) {
     .blog-card {
+      display: block;
       grid-template-columns: auto;
       grid-template-rows: 12rem 1fr;
     }

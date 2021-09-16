@@ -53,6 +53,7 @@ export default{
         name: "Nier: Automata",
         price: 39.99,
         image:"https://image.api.playstation.com/cdn/HP0082/CUSA06592_00/O9k8kwZ1hbPiFTXYN2DJ2G5XxLik6gJEBd19vNPN1jSAJIVyD9fgxrkdkUIiErJw.png",
+        description: "Nier: Automata is a 2017 action role-playing game developed by PlatinumGames and published by Square Enix. It is a sequel to the 2010 video game Nier, itself a spin-off and sequel of the Drakengard series. The game originally released for the PlayStation 4 and Windows via Steam, with an Xbox One port being published the following year with the subtitle Become As Gods Edition.",
         date: "Febuary 2017"
       },
       {
@@ -199,7 +200,7 @@ body {
   }
   
   .blog-card {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
   }
@@ -210,5 +211,7 @@ body {
       grid-template-rows: 12rem 1fr;
     }
   }
+
+ 
 }
 </style>
