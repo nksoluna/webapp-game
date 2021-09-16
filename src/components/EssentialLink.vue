@@ -13,7 +13,7 @@
     </q-item-section>
 
     <q-item-section>
-      <q-item-label>{{ title }}</q-item-label>
+      <q-item-label style="color:dodgerblue; font-size: 17px; font-weight: bold;">{{ title }}</q-item-label>
       <q-item-label caption>
         {{ caption }}
       </q-item-label>

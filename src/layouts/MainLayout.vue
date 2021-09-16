@@ -1,7 +1,7 @@
 <template>
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
-      <q-toolbar>
+      <q-toolbar style="background-color:black">
         <q-btn
           flat
           dense
@@ -12,7 +12,7 @@
         />
 
         <q-toolbar-title>
-          Quasar App
+          Best Game Of The Year
         </q-toolbar-title>
 
         <div></div>
@@ -25,12 +25,10 @@
       bordered
     >
       <q-list>
-        <q-item-label
-          header
-        >
-          Essential Links
-        </q-item-label>
-
+        <div class="icon-container">
+          <img class="icon-img" src="~assets/controller.png">
+          <h2>Best game in each year</h2>
+        </div>
         <EssentialLink
           v-for="link in essentialLinks"
           :key="link.title"
@@ -50,39 +48,39 @@ import EssentialLink from 'components/EssentialLink.vue'
 
 const linksList = [
   {
-    title: 'year 2015',
+    title: 'Year 2015',
     caption: '',
-    icon: 'open_in_new',
+    icon: 'keyboard_double_arrow_right',
     link: '/#/pages/game/2015'
   },
   {
-    title: 'year 2016',
+    title: 'Year 2016',
     caption: '',
-    icon: 'open_in_new',
+    icon: 'keyboard_double_arrow_right',
     link: '/#/pages/game/2016'
   },
   {
-    title: 'year 2017',
+    title: 'Year 2017',
     caption: '',
-    icon: 'open_in_new',
+    icon: 'keyboard_double_arrow_right',
     link: '/#/pages/game/2017'
   },
   {
-    title: 'year 2018',
+    title: 'Year 2018',
     caption: '',
-    icon: 'open_in_new',
+    icon: 'keyboard_double_arrow_right',
     link: '/#/pages/game/2018'
   },
   {
-    title: 'year 2019',
+    title: 'Year 2019',
     caption: '',
-    icon: 'open_in_new',
+    icon: 'keyboard_double_arrow_right',
     link: '/#/pages/game/2019'
   },
   {
-    title: 'year 2020',
+    title: 'Year 2020',
     caption: '',
-    icon: 'open_in_new',
+    icon: 'keyboard_double_arrow_right',
     link: '/#/pages/game/2020'
   }
 ];
@@ -109,3 +107,19 @@ export default defineComponent({
   }
 })
 </script>
+<style>
+  body{
+    background-color:rgba(0, 29, 25, 0.2)
+  }
+  h2{
+    font-size: 25px;
+    font-weight: bold;
+    color:dodgerblue;
+  }
+  .icon-container{
+    text-align: center;
+  }
+  .icon-img{
+    max-width: 150px;
+  }
+</style>
