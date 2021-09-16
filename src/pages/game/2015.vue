@@ -174,7 +174,7 @@ body {
   #container {
     width: 18rem;
     height: 0rem;
-    margin-bottom: 5rem ;
+
   }
   
   .blog-card {

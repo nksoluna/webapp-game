@@ -31,7 +31,7 @@ export default{
               {
                 name: "PUBG",
                 image: "http://www.pubgmobile.com/common/images/icon_logo.jpg",
-                price: 0,
+                price: 19.99,
                 description: "PlayerUnknown's Battlegrounds (PUBG, also known as PUBG: Battlegrounds) is an online multiplayer battle royale game developed and published by PUBG Corporation, a subsidiary of South Korean video game company Bluehole. The game is based on previous mods that were created by Brendan PlayerUnknown Greene for other games, inspired by the 2000 Japanese film Battle Royale, and expanded into a standalone game under Greene's creative direction. In the game, up to one hundred players parachute onto an island and scavenge for weapons and equipment to kill others while avoiding getting killed themselves. The available safe area of the game's map decreases in size over time, directing surviving players into tighter areas to force encounters. The last player or team standing wins the round.",
                 date: "August 2018"
               },
@@ -174,7 +174,7 @@ body {
 @media (max-width: 40rem) {
   #container {
     width: 18rem;
-    height: 27.25rem;
+    height: 0rem;
   }
   
   .blog-card {
@@ -208,6 +208,7 @@ body {
   
   @media (max-width: 40rem) {
     .blog-card {
+      display: block;
       grid-template-columns: auto;
       grid-template-rows: 12rem 1fr;
     }

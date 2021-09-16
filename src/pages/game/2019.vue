@@ -174,7 +174,7 @@ body {
 @media (max-width: 40rem) {
   #container {
     width: 18rem;
-    height: 27.25rem;
+    height: 0rem;
   }
   
   .blog-card {
@@ -208,6 +208,7 @@ body {
   
   @media (max-width: 40rem) {
     .blog-card {
+      display: block;
       grid-template-columns: auto;
       grid-template-rows: 12rem 1fr;
     }
