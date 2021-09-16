@@ -31,14 +31,14 @@ export default{
               {
                 name: "PUBG",
                 image: "http://www.pubgmobile.com/common/images/icon_logo.jpg",
-                price: 400,
+                price: 0,
                 description: "PlayerUnknown's Battlegrounds (PUBG, also known as PUBG: Battlegrounds) is an online multiplayer battle royale game developed and published by PUBG Corporation, a subsidiary of South Korean video game company Bluehole. The game is based on previous mods that were created by Brendan PlayerUnknown Greene for other games, inspired by the 2000 Japanese film Battle Royale, and expanded into a standalone game under Greene's creative direction. In the game, up to one hundred players parachute onto an island and scavenge for weapons and equipment to kill others while avoiding getting killed themselves. The available safe area of the game's map decreases in size over time, directing surviving players into tighter areas to force encounters. The last player or team standing wins the round.",
                 date: "August 2018"
               },
               {
                 name: "CSGO",
                 image: "http://s01.riotpixels.net/data/3e/41/3e4179b1-3e5a-4e6b-aaac-675af5c1edde.jpg/cover.counter-strike-global-offensive.1024x1024.2014-04-24.51.jpg",
-                price: 300,
+                price: 14.99,
                 description: "Counter-Strike: Global Offensive (CS:GO) is a multiplayer first-person shooter developed by Valve and Hidden Path Entertainment. It is the fourth game in the Counter-Strike series. Developed for over two years, Global Offensive was released for Windows, macOS, Xbox 360, and PlayStation 3 in August 2012, and for Linux in 2014. Valve still regularly updates the game, both with smaller balancing patches and larger content additions.",
                 date: "August 2012"
               },
@@ -59,7 +59,7 @@ export default{
               {
                 name: "The Last of Us Part II",
                 image: "https://image.api.playstation.com/vulcan/img/rnd/202010/2618/w48z6bzefZPrRcJHc7L8SO66.png",
-                price: 600,
+                price: 39.99,
                 description: "The Last of Us Part II is a 2020 action-adventure game developed by Naughty Dog and published by Sony Interactive Entertainment for the PlayStation 4. Set five years after The Last of Us (2013), the game focuses on two playable characters in a post-apocalyptic United States whose lives intertwine: Ellie, who sets out for revenge after suffering a tragedy, and Abby, a soldier who becomes involved in a conflict between her militia and a religious cult. The game is played from the third-person perspective and allows the player to fight human enemies and cannibalistic zombie-like creatures with firearms, improvised weapons, and stealth.",
                 date: "May 2020"
               }
