@@ -5,8 +5,11 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       { path: '', component: () => import('pages/Index.vue') },
-      { path: 'pages/food1.vue', component: () => import('pages/food1.vue')},
-      { path: 'pages/goty/2014', component: () => import('pages/goty-eachyear/2014.vue')}
+      { path: 'pages/game/2016', component: () => import('pages/game/2016.vue')},
+      { path: 'pages/game/2017', component: () => import('pages/game/2017.vue')},
+      { path: 'pages/game/2018', component: () => import('pages/game/2018.vue')},
+      { path: 'pages/game/2019', component: () => import('pages/game/2019.vue')},
+      { path: 'pages/game/2020', component: () => import('pages/game/2020.vue')},
     ]
   },
 
