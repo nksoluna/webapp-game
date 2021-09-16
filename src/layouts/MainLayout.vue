@@ -50,33 +50,39 @@ import EssentialLink from 'components/EssentialLink.vue'
 
 const linksList = [
   {
+    title: 'year 2015',
+    caption: '',
+    icon: 'open_in_new',
+    link: '/#/pages/game/2015'
+  },
+  {
     title: 'year 2016',
     caption: '',
-    icon: 'school',
+    icon: 'open_in_new',
     link: '/#/pages/game/2016'
   },
   {
     title: 'year 2017',
     caption: '',
-    icon: 'school',
+    icon: 'open_in_new',
     link: '/#/pages/game/2017'
   },
   {
     title: 'year 2018',
     caption: '',
-    icon: 'school',
+    icon: 'open_in_new',
     link: '/#/pages/game/2018'
   },
   {
     title: 'year 2019',
     caption: '',
-    icon: 'school',
+    icon: 'open_in_new',
     link: '/#/pages/game/2019'
   },
   {
     title: 'year 2020',
     caption: '',
-    icon: 'school',
+    icon: 'open_in_new',
     link: '/#/pages/game/2020'
   }
 ];
